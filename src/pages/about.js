@@ -36,7 +36,7 @@ export const query = graphql`
       title
       subtitle
       photo {
-        fluid(maxWidth: 200, imgixParams: { fm: "jpg", auto: "compress" }) {
+        fluid(maxWidth: 20, imgixParams: { fm: "jpg", auto: "compress" }) {
           ...GatsbyDatoCmsSizes
         }
       }
