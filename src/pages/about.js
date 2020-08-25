@@ -9,7 +9,7 @@ const About = ({ data: { about } }) => (
     <article className="sheet">
       <HelmetDatoCms seo={about.seoMetaTags} />
       <div className="sheet__inner">
-        <h1 className="sheet__title">{about.title}</h1>
+        <h6 className="sheet__title">{about.title}</h6>
         <p></p> 
 	<p className="sheet__lead">{about.subtitle}</p>
         <p></p> 
